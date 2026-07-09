@@ -350,13 +350,14 @@ section { padding: 60px 24px; max-width: 1160px; margin: 0 auto; }
 
 /* Equipment */
 .equip-card { background: var(--card); border: 1px solid var(--card-border); padding: 26px; }
-.equip-card .icon-wrap {
-  width: 46px; height: 46px;
+.equip-card .equip-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
   border: 1px solid var(--card-border);
-  display: flex; align-items: center; justify-content: center;
   margin-bottom: 18px;
+  filter: grayscale(15%);
 }
-.equip-card .icon-wrap svg { width: 24px; height: 24px; }
 .equip-card h3 { font-family: 'Oswald', sans-serif; text-transform: uppercase; margin-bottom: 8px; font-weight: 600; }
 .equip-card p { color: var(--text-soft); font-size: 0.92rem; margin-bottom: 14px; text-transform: none; }
 .equip-card ul { color: var(--text-soft); font-size: 0.87rem; padding-left: 18px; text-transform: none; }
